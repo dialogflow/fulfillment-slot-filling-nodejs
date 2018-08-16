@@ -1,0 +1,71 @@
+{
+  "id": "0803acd2-e312-42de-85ca-ee756d4af69b",
+  "name": "makeAdlibStory",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6df46f67-c9e6-402d-bac6-c739fbab64b1",
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Oops you forgot $geo-country"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a7035e30-f9ce-44e3-a751-899668dd7ce3",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You forgot $number, give me any number"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b502e1e3-dbb2-4ec7-8207-0ebde74d7c38",
+          "required": true,
+          "dataType": "@sys.color",
+          "name": "color",
+          "value": "$color",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me a $color"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "So according to David Attenborough, back in the year $number, the nearly extinct yet exquisite, $color -bellied fox was introduced to $geo-country and now flourishes in over 236 distinct regions."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1534450427,
+  "fallbackIntent": false,
+  "events": []
+}
