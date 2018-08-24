@@ -3,8 +3,8 @@
 Slot filling simplifies your agent by letting you obtain multiple, required parameters within a single intent. If any parameters are missing from a user utterance, your agent will automatically prompt users for the required parameters.
 
 ## Setup Instructions
-1. Click [![AdLibs](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "AdLibs")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/slot-filling.zip) to create a new agent from our template.
-2. Write or say `hi` in the simulator (top right).  
+1. Create an agent from our template, click [![AdLibs](https://storage.googleapis.com/dialogflow-oneclick/deploy.svg "AdLibs")](https://console.dialogflow.com/api-client/oneclick?templateUrl=https://storage.googleapis.com/dialogflow-oneclick/slot-filling.zip)
+2. Write or say `hi` in the simulator.  
 
 ## Related Samples
 | Name                                 | Language                         |
@@ -32,4 +32,4 @@ Please read and follow the steps in the CONTRIBUTING.md
 See LICENSE.md
 
 ## Terms
-Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service](https://developers.google.com/terms/) and [Dialogflow's Terms of Use and Privacy Policy](https://api.ai/terms/).
+Your use of this sample is subject to, and by using or downloading the sample files you agree to comply with, the [Google APIs Terms of Service](https://developers.google.com/terms/) and [Dialogflow's Terms of Use and Privacy Policy](https://dialogflow.com/terms-and-privacy).
