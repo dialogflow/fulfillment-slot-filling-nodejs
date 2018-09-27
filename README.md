@@ -3,9 +3,12 @@
 Slot filling simplifies your agent by letting you obtain multiple, required parameters within a single intent. If any parameters are missing from a user utterance, your agent will automatically prompt users for the required parameters.
 
 ## Setup
+Select **only one** of the options below.
+
+### Option 1: Add to Dialogflow (Recommended)
 To create this agent from our template:
 
-<a href="https://console.dialogflow.com/api-client/oneclick?templateUrl=https://oneclickgithub.appspot.com/dialogflow/fulfillment-slot-filling-nodejs" target="blank">
+<a href="https://console.dialogflow.com/api-client/oneclick?templateUrl=https://oneclickgithub.appspot.com/dialogflow/fulfillment-slot-filling-nodejs&agentName=BasicSlotFilling" target="blank">
   <img src="https://dialogflow.com/images/deploy.png">
 </a>
 
@@ -23,10 +26,21 @@ To create this agent from our template:
 10. Back in Dialogflow Console > **Fulfullment** > **Enable** Webhook.
 11. Paste the URL from the Firebase Console’s events column into the **URL** field > **Save**.
 
-## Samples
-For all [Dialogflow-Fulfillment](https://github.com/topics/dialogflow-fulfillment) samples on Github, available in Node.js and Python.
+## Related Samples
+| Name       | Language           |
+| ------------- |:-------------:|
+| [Fulfillment & Regex Validation](https://github.com/dialogflow/fulfillment-regex-nodejs)      | Node.js |
+| [Weather: Fulfillment & WWO API](https://github.com/dialogflow/fulfillment-weather-nodejs)     | Node.js      |  
+| [Bike Shop: Fulfillment & Google Calendar API](https://github.com/dialogflow/fulfillment-bike-shop-nodejs)| Node.js |
+| [Temperature Trivia: Fulfillment & Actions on Google](https://github.com/dialogflow/fulfillment-temperature-converter-nodejs) | Node.js |
+| [Fulfillment & Actions on Google](https://github.com/dialogflow/fulfillment-actions-library-nodejs) | Node.js |
+| [Fulfillment & Firestore Database](https://github.com/dialogflow/fulfillment-firestore-nodejs) | Node.js |
+| [Multi-language/locale](https://github.com/dialogflow/fulfillment-multi-locale-nodejs) | Node.js |
+| [Basic Slot Filling](https://github.com/dialogflow/fulfillment-slot-filling-nodejs) | Node.js |
+| [Alexa Importer](https://github.com/dialogflow/fulfillment-importer-nodejs) | Node.js |
 
-For Fulfillment Webhook [JSON requests & responses](https://github.com/dialogflow/fulfillment-webhook-json).
+For Fulfillment Webhook [JSON Requests & Responses](https://github.com/dialogflow/fulfillment-webhook-json).
+
 
 ## References & Issues
 + Questions? Try [StackOverflow](https://stackoverflow.com/questions/tagged/dialogflow) or [Dialogflow Developer Community](https://plus.google.com/communities/103318168784860581977).
