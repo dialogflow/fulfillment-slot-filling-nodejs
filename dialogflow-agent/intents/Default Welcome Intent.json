@@ -16,7 +16,7 @@
           "speech": "Hey there, welcome to Ad Libs! All I need is a country, year, and color for a great story."
         }
       ],
-      "defaultResponsePlatforms": {},
+      "defaultResponsePlatforms": { "google": true },
       "speech": []
     }
   ],

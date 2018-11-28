@@ -17,7 +17,7 @@
           "prompts": [
             {
               "lang": "en",
-              "value": "Oops you forgot $geo-country"
+              "value": "I need a country!"
             }
           ],
           "isList": false
@@ -31,7 +31,7 @@
           "prompts": [
             {
               "lang": "en",
-              "value": "You forgot $number, give me any number"
+              "value": "What\u0027s a random year?"
             }
           ],
           "isList": false
@@ -45,7 +45,7 @@
           "prompts": [
             {
               "lang": "en",
-              "value": "Please tell me a $color"
+              "value": "Give me a random color"
             }
           ],
           "isList": false
@@ -55,7 +55,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "So according to David Attenborough, back in the year $number, the nearly extinct yet exquisite, $color -bellied fox was introduced to $geo-country and now flourishes in over 236 distinct regions."
+          "speech": "So according to Professor David, back in the year $number, the nearly  extinct yet exquisite, $color -bellied fox was introduced to $geo-country and now flourishes in over 236 distinct regions."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -65,7 +65,7 @@
   "priority": 500000,
   "webhookUsed": true,
   "webhookForSlotFilling": true,
-  "lastUpdate": 1534450427,
+  "lastUpdate": 1543435799,
   "fallbackIntent": false,
   "events": []
 }

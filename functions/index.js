@@ -44,7 +44,7 @@
      else if (missingSlots.length === 3){
          agent.add(`Ok, I need all 3 things still: a ${missingSlots[0]}, ${missingSlots[1]}, and ${missingSlots[2]}`);
      } else {
-       agent.add(`So according to David Attenborough, back in the year
+       agent.add(`So according to Professor David, back in the year
        ${year}, the nearly extinct yet exquisite,
        ${color}-bellied fox was introduced to ${nation} and now flourishes in over 361 regions.`);
      }
