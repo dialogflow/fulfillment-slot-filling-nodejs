@@ -4,6 +4,7 @@
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
+    "autoPreviewEnabled": true,
     "googleAssistantCompatible": true,
     "project": "basic-slotfilling",
     "welcomeIntentSignInRequired": false,
@@ -19,14 +20,13 @@
     "voiceType": "MALE_1",
     "capabilities": [],
     "protocolVersion": "V2",
-    "autoPreviewEnabled": true,
     "isDeviceAgent": false
   },
   "defaultTimezone": "America/Los_Angeles",
   "webhook": {
     "url": "https://us-central1-basic-slotfilling.cloudfunctions.net/dialogflowFirebaseFulfillment",
     "headers": {
-      "":""
+      "": ""
     },
     "available": true,
     "useForDomains": false,
@@ -40,5 +40,6 @@
   "onePlatformApiVersion": "v2",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
-  "knowledgeServiceConfidenceAdjustment": -0.4
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
 }
